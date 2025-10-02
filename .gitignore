@@ -1,0 +1,17 @@
+# Ignore Cargo build output for all Rust projects
+**/target/
+
+# Ignore Rust/Cargo lockfiles if you don’t want them in git
+# (but usually you commit Cargo.lock for binaries, not libraries)
+**/Cargo.lock
+
+# Ignore backup files
+**/*.rs.bk
+
+# If using rustfmt or clippy artifacts
+**/*.rs.bk
+
+# IDE/editor files
+**/.idea/
+**/.vscode/
+
