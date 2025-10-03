@@ -1,3 +1,5 @@
+mod slices;
+
 fn main() {
     //What is ownership?
     //This is how Rust manages memory
@@ -33,6 +35,8 @@ fn main() {
     let s2 = String::from("Hot Potato");
     let s3 = take_and_give_back(s2);
     println!("{s3}");
+
+    slices::slices();
 }
 
 fn string_example() {
