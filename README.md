@@ -2,12 +2,12 @@
 
 > Notes, exercises, projects, and reflections as I work through *The Rust Programming Language*.
 
-## 📘 Book Reference
+## Book Reference
 
 - Title: *The Rust Programming Language*  
-- Authors: Steve Klabnik, Carol Nichols, and Chris Krycho (with contributions from the Rust community) :contentReference[oaicite:0]{index=0}  
-- Edition: The version aligned with Rust 1.85.0 or later, using `edition = "2024"` in `Cargo.toml` :contentReference[oaicite:1]{index=1}  
-- Online (HTML) version: https://doc.rust-lang.org/book/ :contentReference[oaicite:2]{index=2}  
+- Authors: Steve Klabnik, Carol Nichols, and Chris Krycho (with contributions from the Rust community)
+- Edition: The version aligned with Rust 1.85.0 or later, using `edition = "2024"` in `Cargo.toml` 
+- Online (HTML) version: https://doc.rust-lang.org/book/
 
 ---
 
