@@ -15,7 +15,7 @@
 
 | Chapter | Title / Topic | Status | Notes / Date |
 |----------|----------------|---------|---------------|
-| 1 | Getting Started | In Progress | Installed Rust, set up first project |
+| 1 | Getting Started | Completed | Installed Rust, set up first project |
 | 2 | Programming a Guessing Game | Completed | |
 | 3 | Common Programming Concepts | Completed | |
 | 4 | Understanding Ownership | Completed | |
