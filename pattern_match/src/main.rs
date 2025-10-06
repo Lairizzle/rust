@@ -29,6 +29,9 @@ fn main() {
     let none = plus_one(None);
 
     check_dice_roll();
+
+    //You can use if let into a less verbose way to handle values that match one pattern
+    if_let();
 }
 
 fn value_in_cents(coin: Coin) -> u8 {
@@ -70,5 +73,17 @@ fn check_dice_roll() {
         7 => remove_fancy_hate(),
         // _ is a special pattern that matches any value and does not bind to it
         _ => reroll(),
+    }
+}
+
+fn if_let() {
+    //The if let takes a pattern and an expression seperated by an equal sign
+    //It works the same as match, where the expression is given to mtach the first arm
+    //You can also include an else statement
+    let config_max = Some(3u8);
+    if let Some(max) = config_max {
+        println!("The maximum is configured to be {max}");
+    } else {
+        println!("There is no max?");
     }
 }
