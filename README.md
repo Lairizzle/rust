@@ -21,7 +21,7 @@
 | 4 | Understanding Ownership | Completed | |
 | 5 | Using Structs to Structure Related Data | Completed | |
 | 6 | Enums and Pattern Matching | Completed | |
-| 7 | Managing Growing Projects with Packages, Crates, and Modules | Not Started | |
+| 7 | Managing Growing Projects with Packages, Crates, and Modules | Completed | |
 | 8 | Common Collections | Not Started | |
 | 9 | Error Handling | Not Started | |
 | 10 | Generic Types, Traits, and Lifetimes | Not Started | |
